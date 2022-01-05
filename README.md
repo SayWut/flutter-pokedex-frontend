@@ -1,16 +1,19 @@
 # flutter_pokedex_frontend
 
-A new Flutter project.
+# About
 
-## Getting Started
+This is the frontend of the Pokedex project. The project was created with Flutter as a responsive website and as an android application.
 
-This project is a starting point for a Flutter application.
+[The backend of the project](https://github.com/SayWut/nodejs-pokedex-backend)
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- GetX - Used as state managment
+- Architecture - Based on the clean architecture model
+- DB - an http requests to the backend of the project
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- List of 900+ pokemons
+- Search for pokemons
+- View pokemon's details
