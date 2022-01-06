@@ -13,7 +13,7 @@ class RootView extends GetView {
     return GetRouterOutlet.builder(
       builder: (context, delegate, current) {
         return Scaffold(
-          drawer: MyDrawer(),
+          drawer: const MyDrawer(),
           appBar: const MyAppBar(),
           body: GetRouterOutlet(
             anchorRoute: Routes.POKEMONS,

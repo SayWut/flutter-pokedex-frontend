@@ -1,4 +1,4 @@
-# flutter_pokedex_frontend
+# flutter-pokedex-frontend
 
 # About
 
@@ -17,3 +17,9 @@ This is the frontend of the Pokedex project. The project was created with Flutte
 - List of 900+ pokemons
 - Search for pokemons
 - View pokemon's details
+
+# Presentation
+
+<img src="https://github.com/SayWut/repositories-assets/blob/master/pokedex/pokedex-website.gif?raw=true" alt="pokedex website" width="500"/>
+
+<img src="https://github.com/SayWut/repositories-assets/blob/master/pokedex/pokedex-mobile.gif?raw=true" alt="pokedex mobile application" height="500"/>

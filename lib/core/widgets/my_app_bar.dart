@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_pokedex_frontend/features/pokemon_list/presentation/controllers/pokemons_controller.dart';
 import 'package:flutter_pokedex_frontend/routes/app_pages.dart';
 import 'package:get/get.dart' as getx;
@@ -43,13 +42,15 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
             width: ResponsiveValue(
               context,
               defaultValue: 300.0,
-              valueWhen: const [Condition.equals(name: MOBILE, value: 150)],
+              valueWhen: const [Condition.equals(name: MOBILE, value: 200.0)],
             ).value!,
             child: TextField(
               controller: textFieldController,
               onSubmitted: searchPokemon,
               maxLength: 30,
               decoration: const InputDecoration(
+                contentPadding:
+                    EdgeInsets.symmetric(vertical: 12, horizontal: 8),
                 counterText: "",
                 filled: true,
                 fillColor: Colors.white,

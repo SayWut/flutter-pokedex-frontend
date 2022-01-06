@@ -1,5 +1,5 @@
 name: flutter_pokedex_frontend
-description: A new Flutter project.
+description: A pokedex project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -35,13 +35,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   equatable: ^2.0.3
   dartz: ^0.10.0
-  hive: ^2.0.4
-  hive_flutter: ^1.1.0
   http: ^0.13.4
   flutter_dotenv: ^5.0.2
   get: ^4.3.8
   flutter_platform_widgets: ^1.10.0
-  flutter_svg: ^0.23.0+1
   dartx: ^0.8.0
   responsive_framework: ^0.1.5
   extended_image: ^5.1.3

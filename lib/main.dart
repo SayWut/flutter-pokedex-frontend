@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           ResponsiveBreakpoint.resize(1280, name: DESKTOP),
         ],
       ),
-      title: 'Flutter Demo',
+      title: 'Pokedex',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
