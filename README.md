@@ -20,6 +20,10 @@ This is the frontend of the Pokedex project. The project was created with Flutte
 
 # Presentation
 
+## Website
+
 <img src="https://github.com/SayWut/repositories-assets/blob/master/pokedex/pokedex-website.gif?raw=true" alt="pokedex website" width="500"/>
+
+## Phone application
 
 <img src="https://github.com/SayWut/repositories-assets/blob/master/pokedex/pokedex-mobile.gif?raw=true" alt="pokedex mobile application" height="500"/>
